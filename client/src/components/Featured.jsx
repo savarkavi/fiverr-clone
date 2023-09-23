@@ -2,7 +2,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 
 const Featured = () => {
   return (
-    <div className="h-[630px] flex justify-center gap-[150px] items-center overflow-hidden max-w-[1440px] mx-auto">
+    <div className="h-[630px] flex  gap-[150px] items-center overflow-hidden max-w-[1440px] mx-auto">
       <div className="flex flex-col gap-12">
         <h2 className="text-5xl text-white font-bold max-w-[700px] leading-snug">
           Find the right <span className="italic font-light">freelance</span>{" "}
@@ -34,13 +34,13 @@ const Featured = () => {
           </div>
         </div>
       </div>
-      <div>
+      {/* <div>
         <img
           src="../../public/man.png"
           alt="featured img"
           className="w-[800px]"
         />
-      </div>
+      </div> */}
     </div>
   );
 };
