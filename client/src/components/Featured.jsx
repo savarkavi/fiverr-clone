@@ -34,13 +34,6 @@ const Featured = () => {
           </div>
         </div>
       </div>
-      {/* <div>
-        <img
-          src="../../public/man.png"
-          alt="featured img"
-          className="w-[800px]"
-        />
-      </div> */}
     </div>
   );
 };
